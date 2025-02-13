@@ -1,4 +1,4 @@
-# My Türkçe Zormu
+# my.turkcezormu.com
 
 Welcome to the My Türkçe Zormu project!
 
