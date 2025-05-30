@@ -1,0 +1,103 @@
+.item-activation {
+    display: block;
+    width: 380px;
+    margin: 20px 0;
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+.item-activation p {
+    margin: 0;
+}
+.item-activation p a {
+    color: #0086FB;
+    text-decoration: none;
+}
+.item-activation p a:active,
+.item-activation p a:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.activation-content {
+    padding: 40px;
+}
+.activation-content h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #23282D;
+    margin: 0 0 10px;
+}
+.activation-content p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #8C99A5;
+}
+.activation-content .error {
+    display: none;
+    color: #b32d2e;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.activation-info {
+    margin-bottom: 20px;
+}
+
+.activation-form {
+    text-align: center;
+}
+.activation-form input {
+    width: 100%;
+    padding: 10px 16px;
+    background: #F6F9FC;
+    border: 1px solid #BEC5CB;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #23282D;
+}
+.activation-form input::placeholder {
+    color: rgba(39, 50, 75, 0.5);
+}
+
+.activation-form button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #fff;
+    background: #0086FB;
+    border-radius: 5px;
+    border: none;
+    transition: all .2s ease;
+}
+.activation-form button:hover {
+    background: #0179e1;
+}
+.activation-form button.disabled {
+    box-shadow:inset 0 0 0 1px #BEC5CB;
+    color: #BEC5CB;
+    background: #EFF3F5;
+}
+
+.activation-footer {
+    position: relative;
+    padding: 20px 40px 40px 60px;
+    background: #EFF3F5;
+}
+.activation-footer:before {
+    content: ' ';
+    position: absolute;
+    left: 40px;
+    top: 22px;
+    height: 16px;
+    width: 16px;
+    background: url('../images/info.svg');
+}
